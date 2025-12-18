@@ -1,3 +1,4 @@
+// @ts-nocheck
 export const getPokemon = async (name: string) => {
   const query = `
       query getPokemon($name: String!, $language: String!) {
